@@ -30,7 +30,56 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CPoint.Equihira.CPoint.Business">
+      <HintPath>..\packages\simplement-e-server.13.2.0\lib\CPoint.Equihira.CPoint.Business.dll</HintPath>
+    </Reference>
+    <Reference Include="CPointSoftware.DocBase.Business">
+      <HintPath>..\packages\simplement-e-server.13.2.0\lib\CPointSoftware.DocBase.Business.dll</HintPath>
+    </Reference>
+    <Reference Include="CPointSoftware.DocBase.Extensibility">
+      <HintPath>..\packages\simplement-e-server.13.2.0\lib\CPointSoftware.DocBase.Extensibility.dll</HintPath>
+    </Reference>
+    <Reference Include="CPointSoftware.ECommerce.Business">
+      <HintPath>..\packages\simplement-e-server.13.2.0\lib\CPointSoftware.ECommerce.Business.dll</HintPath>
+    </Reference>
+    <Reference Include="CPointSoftware.ECommerce.Tools">
+      <HintPath>..\packages\simplement-e-commerce.13.2.0\lib\CPointSoftware.ECommerce.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="CPointSoftware.Equihira.Business.Common">
+      <HintPath>..\packages\simplement-e-server.13.2.0\lib\CPointSoftware.Equihira.Business.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="CPointSoftware.Equihira.Business.GestCom">
+      <HintPath>..\packages\simplement-e-server.13.2.0\lib\CPointSoftware.Equihira.Business.GestCom.dll</HintPath>
+    </Reference>
+    <Reference Include="CPointSoftware.Equihira.Business.Intelligence">
+      <HintPath>..\packages\simplement-e-server.13.2.0\lib\CPointSoftware.Equihira.Business.Intelligence.dll</HintPath>
+    </Reference>
+    <Reference Include="CPointSoftware.Equihira.Business.Logistique">
+      <HintPath>..\packages\simplement-e-server.13.2.0\lib\CPointSoftware.Equihira.Business.Logistique.dll</HintPath>
+    </Reference>
+    <Reference Include="CPointSoftware.Equihira.Business.PointOfSale">
+      <HintPath>..\packages\simplement-e-server.13.2.0\lib\CPointSoftware.Equihira.Business.PointOfSale.dll</HintPath>
+    </Reference>
+    <Reference Include="CPointSoftware.Equihira.Common">
+      <HintPath>..\packages\Simplement-e-core.13.2.0\lib\CPointSoftware.Equihira.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="CPointSoftware.Equihira.Extensibility">
+      <HintPath>..\packages\Simplement-e-core.13.2.0\lib\CPointSoftware.Equihira.Extensibility.dll</HintPath>
+    </Reference>
+    <Reference Include="CPointSoftware.Faneon.Business">
+      <HintPath>..\packages\simplement-e-server.13.2.0\lib\CPointSoftware.Faneon.Business.dll</HintPath>
+    </Reference>
+    <Reference Include="CPointSoftware.Framework">
+      <HintPath>..\packages\Simplement-e-core.13.2.0\lib\CPointSoftware.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="CPointSoftware.Framework.Web">
+      <HintPath>..\packages\simplement-e-server.13.2.0\lib\CPointSoftware.Framework.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="CPointSoftware.Tools">
+      <HintPath>..\packages\Simplement-e-core.13.2.0\lib\CPointSoftware.Tools.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -39,7 +88,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PromotionDemo1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
