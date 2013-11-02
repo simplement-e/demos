@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Simplement-e-core</id>
+    <version>13.2.0</version>
+    <title>Simplement-e Core assemblies</title>
+    <authors>Simplement-e</authors>
+    <owners>Simplement-e</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package commun à toutes les extensions pour simplement-e.</description>
+    <language>fr-FR</language>
+  </metadata>
+</package>

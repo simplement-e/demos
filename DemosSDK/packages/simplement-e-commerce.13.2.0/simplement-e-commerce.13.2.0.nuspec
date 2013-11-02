@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>simplement-e-commerce</id>
+    <version>13.2.0</version>
+    <title>Simplement-e e-commerce</title>
+    <authors>simplement-e</authors>
+    <owners>simplement-e</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package contenant les assemblies pour le développement d'extensions du module e-commerce</description>
+    <dependencies>
+      <dependency id="simplement-e-server" version="13.2.0" />
+      <dependency id="Simplement-e-core" version="13.2.0" />
+    </dependencies>
+  </metadata>
+</package>

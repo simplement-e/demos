@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>simplement-e-server</id>
+    <version>13.2.0</version>
+    <title>Simplement-e serveur</title>
+    <authors>simplement-e</authors>
+    <owners>simplement-e</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package contenant toutes les références vers les objets metiers de simplement-e.</description>
+    <dependencies>
+      <dependency id="Simplement-e-core" version="13.2.0" />
+    </dependencies>
+  </metadata>
+</package>
